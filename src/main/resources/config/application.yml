@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url:  jdbc:postgresql://localhost/etorovsky
+    username: etorovsky
+    password: 
+    driverClassName: org.postgresql.Driver
+spring.thymeleaf.cache: false
