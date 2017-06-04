@@ -37,4 +37,9 @@ public class SampleController {
 			throw new RuntimeException("Error uploading file.", e);
 		}
 	}
+	
+	@RequestMapping(value = "/upload", method = RequestMethod.GET)
+	public String uploadForm(HttpServletResponse responses) {
+		return "upload";
+	}
 }
